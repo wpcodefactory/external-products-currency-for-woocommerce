@@ -1,8 +1,8 @@
-#: external-products-currency-for-woocommerce.php:151
+#: external-products-currency-for-woocommerce.php:148
 msgid "Settings"
 msgstr ""
 
-#: external-products-currency-for-woocommerce.php:154
+#: external-products-currency-for-woocommerce.php:151
 msgid "Go Pro"
 msgstr ""
 

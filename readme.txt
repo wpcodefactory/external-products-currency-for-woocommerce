@@ -1,8 +1,8 @@
 === Advanced External Products for WooCommerce ===
-Contributors: algoritmika, anbinder
+Contributors: wpcodefactory, algoritmika, anbinder
 Tags: woocommerce, external product, external products, woo commerce
 Requires at least: 4.4
-Tested up to: 5.4
+Tested up to: 6.1
 Stable tag: 2.1.0
 License: GNU General Public License v3.0
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
@@ -29,6 +29,12 @@ Get more control over external/affiliate products in WooCommerce.
 3. Start by visiting plugin settings at "WooCommerce > Settings > Advanced External Products".
 
 == Changelog ==
+
+= 2.2.0 - 11/11/2022 =
+* Tested up to: 6.1.
+* WC tested up to: 7.1.
+* Readme.txt updated.
+* Deploy script added.
 
 = 2.1.0 - 04/08/2020 ==
 * Fix - "wc_get_product was called incorrectly" notice fixed.

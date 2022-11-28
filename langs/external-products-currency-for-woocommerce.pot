@@ -1,8 +1,40 @@
-#: external-products-currency-for-woocommerce.php:148
-msgid "Settings"
+# Copyright (C) 2022 WPFactory
+# This file is distributed under the same license as the Advanced External Products for WooCommerce Pro plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: external-products-currency-for-woocommerce 2.2.0-dev\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/external-products-currency-for-woocommerce\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2022-11-28T21:05:00+01:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.4.0\n"
+"X-Domain: external-products-currency-for-woocommerce\n"
+
+#. Plugin Name of the plugin
+msgid "Advanced External Products for WooCommerce Pro"
 msgstr ""
 
-#: external-products-currency-for-woocommerce.php:151
+#. Plugin URI of the plugin
+msgid "https://wpfactory.com/item/advanced-external-products-for-woocommerce/"
+msgstr ""
+
+#. Description of the plugin
+msgid "Get more control over external/affiliate products in WooCommerce."
+msgstr ""
+
+#. Author of the plugin
+msgid "WPFactory"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://wpfactory.com"
+msgstr ""
+
+#: external-products-currency-for-woocommerce-pro.php:151
 msgid "Go Pro"
 msgstr ""
 
@@ -108,7 +140,6 @@ msgid "Custom currency symbol template for all external products."
 msgstr ""
 
 #: includes/settings/class-alg-wc-aep-settings-general.php:99
-#, php-format
 msgid "Available placeholders: %s."
 msgstr ""
 
@@ -126,9 +157,7 @@ msgid "Single"
 msgstr ""
 
 #: includes/settings/class-alg-wc-aep-settings-general.php:122
-msgid ""
-"Open link in a new tab for <strong>all</strong> external <strong>products</"
-"strong> on <strong>single product pages</strong>."
+msgid "Open link in a new tab for <strong>all</strong> external <strong>products</strong> on <strong>single product pages</strong>."
 msgstr ""
 
 #: includes/settings/class-alg-wc-aep-settings-general.php:130
@@ -137,21 +166,15 @@ msgid "Archives"
 msgstr ""
 
 #: includes/settings/class-alg-wc-aep-settings-general.php:131
-msgid ""
-"Open link in a new tab for <strong>all</strong> external <strong>products</"
-"strong> on <strong>archives</strong>."
+msgid "Open link in a new tab for <strong>all</strong> external <strong>products</strong> on <strong>archives</strong>."
 msgstr ""
 
 #: includes/settings/class-alg-wc-aep-settings-general.php:140
-msgid ""
-"Open link in a new tab for external products on <strong>per product</strong> "
-"basis on <strong>single product pages</strong>."
+msgid "Open link in a new tab for external products on <strong>per product</strong> basis on <strong>single product pages</strong>."
 msgstr ""
 
 #: includes/settings/class-alg-wc-aep-settings-general.php:154
-msgid ""
-"Open link in a new tab for external products on <strong>per product</strong> "
-"basis on <strong>archives</strong>."
+msgid "Open link in a new tab for external products on <strong>per product</strong> basis on <strong>archives</strong>."
 msgstr ""
 
 #: includes/settings/class-alg-wc-settings-aep.php:51

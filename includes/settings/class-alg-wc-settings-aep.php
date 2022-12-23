@@ -2,12 +2,13 @@
 /**
  * Advanced External Products for WooCommerce - Settings
  *
- * @version 2.1.0
+ * @version 2.2.0
  * @since   1.0.0
+ *
  * @author  Algoritmika Ltd.
  */
 
-if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
+defined( 'ABSPATH' ) || exit;
 
 if ( ! class_exists( 'Alg_WC_Settings_AEP' ) ) :
 
@@ -16,7 +17,7 @@ class Alg_WC_Settings_AEP extends WC_Settings_Page {
 	/**
 	 * Constructor.
 	 *
-	 * @version 2.1.0
+	 * @version 2.2.0
 	 * @since   1.0.0
 	 */
 	function __construct() {
@@ -25,6 +26,7 @@ class Alg_WC_Settings_AEP extends WC_Settings_Page {
 		parent::__construct();
 		add_filter( 'woocommerce_admin_settings_sanitize_option', array( $this, 'maybe_unsanitize_option' ), PHP_INT_MAX, 3 );
 		// Sections
+		require_once( 'class-alg-wc-aep-settings-section.php' );
 		require_once( 'class-alg-wc-aep-settings-general.php' );
 	}
 

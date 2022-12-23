@@ -3,23 +3,24 @@ Contributors: wpcodefactory, algoritmika, anbinder
 Tags: woocommerce, external product, external products, woo commerce
 Requires at least: 4.4
 Tested up to: 6.1
-Stable tag: 2.1.0
+Stable tag: 2.2.0
 License: GNU General Public License v3.0
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
-Get more control over external/affiliate products in WooCommerce.
+Adds more control over external/affiliate products in WooCommerce.
 
 == Description ==
 
 **Advanced External Products for WooCommerce** plugin gives you more control over **external (i.e. affiliate) products** in WooCommerce.
 
+### &#9989; Main Features ###
+
 * Set different **currency** for external products in WooCommerce. For example, if your shop's default currency is *Euros (EUR)*, you can set your external (i.e. affiliate) products to display prices in *United States Dollars (USD)*. You can also set custom currency symbol for the external products.
 * Make external product link **open in a new tab**.
 
-= Feedback =
+### &#128472; Feedback ###
 
-* We are open to your suggestions and feedback.
-* Thank you for using or trying out one of our plugins!
+* We are open to your suggestions and feedback. Thank you for using or trying out one of our plugins!
 * [Visit plugin site](https://wpfactory.com/item/advanced-external-products-for-woocommerce/).
 
 == Installation ==
@@ -30,9 +31,12 @@ Get more control over external/affiliate products in WooCommerce.
 
 == Changelog ==
 
-= 2.2.0 - 11/11/2022 =
+= 2.2.0 - 23/11/2022 =
+* Dev - The plugin is initialized in the `plugins_loaded` action now.
+* Dev - Localization - The `load_plugin_textdomain` function moved to the `init` action.
+* Dev - Code refactoring.
 * Tested up to: 6.1.
-* WC tested up to: 7.1.
+* WC tested up to: 7.2.
 * Readme.txt updated.
 * Deploy script added.
 

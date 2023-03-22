@@ -3,7 +3,7 @@ Contributors: wpcodefactory, algoritmika, anbinder
 Tags: woocommerce, external product, external products, woo commerce
 Requires at least: 4.4
 Tested up to: 6.1
-Stable tag: 2.2.0
+Stable tag: 2.3.0
 License: GNU General Public License v3.0
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -15,8 +15,9 @@ Adds more control over external/affiliate products in WooCommerce.
 
 ### &#9989; Main Features ###
 
-* Set different **currency** for external products in WooCommerce. For example, if your shop's default currency is *Euros (EUR)*, you can set your external (i.e. affiliate) products to display prices in *United States Dollars (USD)*. You can also set custom currency symbol for the external products.
+* Set different **currency** for external products in WooCommerce. For example, if your shop's default currency is *Euros (EUR)*, you can set your external (i.e. affiliate) products to display prices in *United States Dollars (USD)*. You can also set custom **currency symbol** for the external products.
 * Make external product link **open in a new tab**.
+* Set **multiple URLs** per product.
 
 ### &#128472; Feedback ###
 
@@ -31,7 +32,18 @@ Adds more control over external/affiliate products in WooCommerce.
 
 == Changelog ==
 
-= 2.2.0 - 23/11/2022 =
+= 2.3.0 - 22/03/2023 =
+* Dev - "Multiple URLs" section added.
+* Dev - Currency - "Enable section" option added (defaults to `yes`).
+* Dev - Links - "Enable section" option added (defaults to `yes`).
+* Dev - "Enable plugin" option removed (i.e., now the plugin is always "enabled").
+* Dev - Admin settings - Meta box redone as fields in the "Product data > General" tab.
+* Dev - Admin settings rearranged - "Links" section added. "General" section renamed to "Currency".
+* Dev - Admin settings descriptions updated.
+* Dev - Code refactoring.
+* WC tested up to: 7.5.
+
+= 2.2.0 - 23/12/2022 =
 * Dev - The plugin is initialized in the `plugins_loaded` action now.
 * Dev - Localization - The `load_plugin_textdomain` function moved to the `init` action.
 * Dev - Code refactoring.

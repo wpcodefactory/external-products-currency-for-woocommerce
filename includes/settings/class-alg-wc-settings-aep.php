@@ -2,7 +2,7 @@
 /**
  * Advanced External Products for WooCommerce - Settings
  *
- * @version 2.2.0
+ * @version 2.3.0
  * @since   1.0.0
  *
  * @author  Algoritmika Ltd.
@@ -17,7 +17,7 @@ class Alg_WC_Settings_AEP extends WC_Settings_Page {
 	/**
 	 * Constructor.
 	 *
-	 * @version 2.2.0
+	 * @version 2.3.0
 	 * @since   1.0.0
 	 */
 	function __construct() {
@@ -27,7 +27,9 @@ class Alg_WC_Settings_AEP extends WC_Settings_Page {
 		add_filter( 'woocommerce_admin_settings_sanitize_option', array( $this, 'maybe_unsanitize_option' ), PHP_INT_MAX, 3 );
 		// Sections
 		require_once( 'class-alg-wc-aep-settings-section.php' );
-		require_once( 'class-alg-wc-aep-settings-general.php' );
+		require_once( 'class-alg-wc-aep-settings-currency.php' );
+		require_once( 'class-alg-wc-aep-settings-links.php' );
+		require_once( 'class-alg-wc-aep-settings-multiple-urls.php' );
 	}
 
 	/**
@@ -43,19 +45,19 @@ class Alg_WC_Settings_AEP extends WC_Settings_Page {
 	/**
 	 * get_settings.
 	 *
-	 * @version 2.1.0
+	 * @version 2.3.0
 	 * @since   1.0.0
 	 */
 	function get_settings() {
 		global $current_section;
 		return array_merge( apply_filters( 'woocommerce_get_settings_' . $this->id . '_' . $current_section, array() ), array(
 			array(
-				'title'     => __( 'Reset Section', 'external-products-currency-for-woocommerce' ),
+				'title'     => __( 'Reset Settings', 'external-products-currency-for-woocommerce' ),
 				'type'      => 'title',
 				'id'        => $this->id . '_' . $current_section . '_reset_options',
 			),
 			array(
-				'title'     => __( 'Reset settings', 'external-products-currency-for-woocommerce' ),
+				'title'     => __( 'Reset section settings', 'external-products-currency-for-woocommerce' ),
 				'desc'      => '<strong>' . __( 'Reset', 'external-products-currency-for-woocommerce' ) . '</strong>',
 				'desc_tip'  => __( 'Check the box and save changes to reset.', 'external-products-currency-for-woocommerce' ),
 				'id'        => $this->id . '_' . $current_section . '_reset',

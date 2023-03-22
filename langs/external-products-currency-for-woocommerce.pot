@@ -1,3 +1,12 @@
+#: includes/class-alg-wc-aep-multiple-urls.php:77
+msgid "Extra product URLs"
+msgstr ""
+
+#: includes/class-alg-wc-aep-multiple-urls.php:80
+#, php-format
+msgid "Additional URLs. One URL per line. Accepted formats: %s or %s."
+msgstr ""
+
 #: includes/class-alg-wc-aep.php:131
 msgid "Settings"
 msgstr ""
@@ -6,170 +15,218 @@ msgstr ""
 msgid "Go Pro"
 msgstr ""
 
-#: includes/pro/settings/class-alg-wc-aep-metaboxes.php:39
-msgid "Advanced External Product Options"
-msgstr ""
-
-#: includes/pro/settings/class-alg-wc-aep-metaboxes.php:188
+#: includes/pro/class-alg-wc-aep-pro-currency.php:57
+#: includes/settings/class-alg-wc-aep-settings-currency.php:25
+#: includes/settings/class-alg-wc-aep-settings-currency.php:38
+#: includes/settings/class-alg-wc-aep-settings-currency.php:44
 msgid "Currency"
 msgstr ""
 
-#: includes/pro/settings/class-alg-wc-aep-metaboxes.php:192
-#: includes/pro/settings/class-alg-wc-aep-metaboxes.php:204
-#: includes/pro/settings/class-alg-wc-aep-metaboxes.php:219
+#: includes/pro/class-alg-wc-aep-pro-currency.php:58
+#: includes/pro/class-alg-wc-aep-pro-links.php:78
+#: includes/pro/class-alg-wc-aep-pro-links.php:117
 msgid "Default"
 msgstr ""
 
-#: includes/pro/settings/class-alg-wc-aep-metaboxes.php:199
-msgid "Open link in a new tab"
+#: includes/pro/class-alg-wc-aep-pro-links.php:74
+msgid "Link in a new tab"
 msgstr ""
 
-#: includes/pro/settings/class-alg-wc-aep-metaboxes.php:205
-#: includes/pro/settings/class-alg-wc-aep-metaboxes.php:220
+#: includes/pro/class-alg-wc-aep-pro-links.php:76
+msgid "Open link in a new tab."
+msgstr ""
+
+#: includes/pro/class-alg-wc-aep-pro-links.php:79
+#: includes/pro/class-alg-wc-aep-pro-links.php:118
 msgid "Yes"
 msgstr ""
 
-#: includes/pro/settings/class-alg-wc-aep-metaboxes.php:206
-#: includes/pro/settings/class-alg-wc-aep-metaboxes.php:221
+#: includes/pro/class-alg-wc-aep-pro-links.php:80
+#: includes/pro/class-alg-wc-aep-pro-links.php:119
 msgid "No"
 msgstr ""
 
-#: includes/pro/settings/class-alg-wc-aep-metaboxes.php:214
-msgid "Open link in a new tab on archives"
+#: includes/pro/class-alg-wc-aep-pro-links.php:113
+msgid "Link in a new tab on archives"
 msgstr ""
 
-#: includes/settings/class-alg-wc-aep-settings-general.php:25
-msgid "General"
+#: includes/pro/class-alg-wc-aep-pro-links.php:115
+msgid "Open link in a new tab on archives."
 msgstr ""
 
-#: includes/settings/class-alg-wc-aep-settings-general.php:39
-msgid "Advanced External Products Options"
-msgstr ""
-
-#: includes/settings/class-alg-wc-aep-settings-general.php:44
-#: includes/settings/class-alg-wc-settings-aep.php:25
-msgid "Advanced External Products"
-msgstr ""
-
-#: includes/settings/class-alg-wc-aep-settings-general.php:45
-msgid "Enable plugin"
-msgstr ""
-
-#: includes/settings/class-alg-wc-aep-settings-general.php:58
-msgid "Currency Options"
-msgstr ""
-
-#: includes/settings/class-alg-wc-aep-settings-general.php:59
+#: includes/settings/class-alg-wc-aep-settings-currency.php:39
 msgid "Set different currency for external/affiliate products."
 msgstr ""
 
-#: includes/settings/class-alg-wc-aep-settings-general.php:64
-#: includes/settings/class-alg-wc-aep-settings-general.php:121
-#: includes/settings/class-alg-wc-aep-settings-general.php:130
+#: includes/settings/class-alg-wc-aep-settings-currency.php:45
+#: includes/settings/class-alg-wc-aep-settings-links.php:45
+#: includes/settings/class-alg-wc-aep-settings-multiple-urls.php:48
+msgid "Enable section"
+msgstr ""
+
+#: includes/settings/class-alg-wc-aep-settings-currency.php:51
 msgid "All products"
 msgstr ""
 
-#: includes/settings/class-alg-wc-aep-settings-general.php:65
+#: includes/settings/class-alg-wc-aep-settings-currency.php:52
 msgid "Currency for <strong>all</strong> external <strong>products</strong>."
 msgstr ""
 
-#: includes/settings/class-alg-wc-aep-settings-general.php:66
-#: includes/settings/class-alg-wc-aep-settings-general.php:85
-#: includes/settings/class-alg-wc-aep-settings-general.php:94
-#: includes/settings/class-alg-wc-aep-settings-general.php:124
-#: includes/settings/class-alg-wc-aep-settings-general.php:133
-#: includes/settings/class-alg-wc-aep-settings-general.php:146
-#: includes/settings/class-alg-wc-aep-settings-general.php:160
+#: includes/settings/class-alg-wc-aep-settings-currency.php:53
+#: includes/settings/class-alg-wc-aep-settings-currency.php:72
+#: includes/settings/class-alg-wc-aep-settings-currency.php:81
+#: includes/settings/class-alg-wc-aep-settings-links.php:62
+#: includes/settings/class-alg-wc-aep-settings-links.php:70
+#: includes/settings/class-alg-wc-aep-settings-links.php:91
+#: includes/settings/class-alg-wc-aep-settings-links.php:104
+#: includes/settings/class-alg-wc-aep-settings-multiple-urls.php:56
+#: includes/settings/class-alg-wc-aep-settings-multiple-urls.php:64
 msgid "Enable"
 msgstr ""
 
-#: includes/settings/class-alg-wc-aep-settings-general.php:79
-#: includes/settings/class-alg-wc-aep-settings-general.php:139
-#: includes/settings/class-alg-wc-aep-settings-general.php:153
+#: includes/settings/class-alg-wc-aep-settings-currency.php:66
 msgid "Per product"
 msgstr ""
 
-#: includes/settings/class-alg-wc-aep-settings-general.php:80
+#: includes/settings/class-alg-wc-aep-settings-currency.php:67
 msgid "Currency for external products on <strong>per product</strong> basis."
 msgstr ""
 
-#: includes/settings/class-alg-wc-aep-settings-general.php:81
-#: includes/settings/class-alg-wc-aep-settings-general.php:142
-#: includes/settings/class-alg-wc-aep-settings-general.php:156
-msgid "This will add new meta box to each product's edit page."
+#: includes/settings/class-alg-wc-aep-settings-currency.php:68
+msgid "This will add \"Currency\" input field to each product's edit page."
 msgstr ""
 
-#: includes/settings/class-alg-wc-aep-settings-general.php:92
+#: includes/settings/class-alg-wc-aep-settings-currency.php:79
 msgid "Currency symbol"
 msgstr ""
 
-#: includes/settings/class-alg-wc-aep-settings-general.php:93
+#: includes/settings/class-alg-wc-aep-settings-currency.php:80
 msgid "Custom currency symbol template for all external products."
 msgstr ""
 
-#: includes/settings/class-alg-wc-aep-settings-general.php:100
+#: includes/settings/class-alg-wc-aep-settings-currency.php:87
 #, php-format
 msgid "Available placeholders: %s."
 msgstr ""
 
-#: includes/settings/class-alg-wc-aep-settings-general.php:115
-msgid "Link Options"
+#: includes/settings/class-alg-wc-aep-settings-links.php:25
+#: includes/settings/class-alg-wc-aep-settings-links.php:38
+#: includes/settings/class-alg-wc-aep-settings-links.php:44
+msgid "Links"
 msgstr ""
 
-#: includes/settings/class-alg-wc-aep-settings-general.php:116
+#: includes/settings/class-alg-wc-aep-settings-links.php:39
 msgid "Make external/affiliate products links open in a new tab."
 msgstr ""
 
-#: includes/settings/class-alg-wc-aep-settings-general.php:122
-#: includes/settings/class-alg-wc-aep-settings-general.php:140
+#: includes/settings/class-alg-wc-aep-settings-links.php:55
+msgid "All Products"
+msgstr ""
+
+#: includes/settings/class-alg-wc-aep-settings-links.php:60
+#: includes/settings/class-alg-wc-aep-settings-links.php:85
+#: includes/settings/class-alg-wc-aep-settings-multiple-urls.php:54
 msgid "Single"
 msgstr ""
 
-#: includes/settings/class-alg-wc-aep-settings-general.php:123
+#: includes/settings/class-alg-wc-aep-settings-links.php:61
 msgid ""
 "Open link in a new tab for <strong>all</strong> external <strong>products</"
 "strong> on <strong>single product pages</strong>."
 msgstr ""
 
-#: includes/settings/class-alg-wc-aep-settings-general.php:131
-#: includes/settings/class-alg-wc-aep-settings-general.php:154
+#: includes/settings/class-alg-wc-aep-settings-links.php:68
+#: includes/settings/class-alg-wc-aep-settings-links.php:98
+#: includes/settings/class-alg-wc-aep-settings-multiple-urls.php:62
 msgid "Archives"
 msgstr ""
 
-#: includes/settings/class-alg-wc-aep-settings-general.php:132
+#: includes/settings/class-alg-wc-aep-settings-links.php:69
 msgid ""
 "Open link in a new tab for <strong>all</strong> external <strong>products</"
 "strong> on <strong>archives</strong>."
 msgstr ""
 
-#: includes/settings/class-alg-wc-aep-settings-general.php:141
+#: includes/settings/class-alg-wc-aep-settings-links.php:80
+msgid "Per Product"
+msgstr ""
+
+#: includes/settings/class-alg-wc-aep-settings-links.php:86
 msgid ""
 "Open link in a new tab for external products on <strong>per product</strong> "
 "basis on <strong>single product pages</strong>."
 msgstr ""
 
-#: includes/settings/class-alg-wc-aep-settings-general.php:155
+#: includes/settings/class-alg-wc-aep-settings-links.php:87
+msgid ""
+"This will add \"Link in a new tab\" input field to each product's edit page."
+msgstr ""
+
+#: includes/settings/class-alg-wc-aep-settings-links.php:99
 msgid ""
 "Open link in a new tab for external products on <strong>per product</strong> "
 "basis on <strong>archives</strong>."
 msgstr ""
 
-#: includes/settings/class-alg-wc-settings-aep.php:53
-msgid "Reset Section"
+#: includes/settings/class-alg-wc-aep-settings-links.php:100
+msgid ""
+"This will add \"Link in a new tab on archives\" input field to each "
+"product's edit page."
 msgstr ""
 
-#: includes/settings/class-alg-wc-settings-aep.php:58
-msgid "Reset settings"
+#: includes/settings/class-alg-wc-aep-settings-multiple-urls.php:25
+msgid "Multiple URLs"
 msgstr ""
 
-#: includes/settings/class-alg-wc-settings-aep.php:59
-msgid "Reset"
+#: includes/settings/class-alg-wc-aep-settings-multiple-urls.php:40
+msgid "Multiple Product URLs"
+msgstr ""
+
+#: includes/settings/class-alg-wc-aep-settings-multiple-urls.php:41
+msgid "Set multiple URLs per product."
+msgstr ""
+
+#: includes/settings/class-alg-wc-aep-settings-multiple-urls.php:46
+msgid "Multiple product URLs"
+msgstr ""
+
+#: includes/settings/class-alg-wc-aep-settings-multiple-urls.php:47
+msgid ""
+"This will add \"Extra product URLs\" input field to each product's edit page."
+msgstr ""
+
+#: includes/settings/class-alg-wc-aep-settings-multiple-urls.php:55
+msgid ""
+"Show multiple \"add to cart\" buttons for external products on "
+"<strong>single product pages</strong>."
+msgstr ""
+
+#: includes/settings/class-alg-wc-aep-settings-multiple-urls.php:63
+msgid ""
+"Show multiple \"add to cart\" buttons for external products on "
+"<strong>archives</strong>."
+msgstr ""
+
+#: includes/settings/class-alg-wc-settings-aep.php:25
+msgid "Advanced External Products"
+msgstr ""
+
+#: includes/settings/class-alg-wc-settings-aep.php:55
+msgid "Reset Settings"
 msgstr ""
 
 #: includes/settings/class-alg-wc-settings-aep.php:60
+msgid "Reset section settings"
+msgstr ""
+
+#: includes/settings/class-alg-wc-settings-aep.php:61
+msgid "Reset"
+msgstr ""
+
+#: includes/settings/class-alg-wc-settings-aep.php:62
 msgid "Check the box and save changes to reset."
 msgstr ""
 
-#: includes/settings/class-alg-wc-settings-aep.php:99
+#: includes/settings/class-alg-wc-settings-aep.php:101
 msgid "Your settings have been reset."
 msgstr ""

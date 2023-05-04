@@ -2,8 +2,8 @@
 Contributors: wpcodefactory, algoritmika, anbinder
 Tags: woocommerce, external product, external products, woo commerce
 Requires at least: 4.4
-Tested up to: 6.1
-Stable tag: 2.3.0
+Tested up to: 6.2
+Stable tag: 2.4.0
 License: GNU General Public License v3.0
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -19,6 +19,14 @@ Adds more control over external/affiliate products in WooCommerce.
 * Make external product link **open in a new tab**.
 * Set **multiple URLs** per product.
 
+### &#127942; Premium Version ###
+
+With [premium plugin version](https://wpfactory.com/item/advanced-external-products-for-woocommerce/) you can:
+
+* Set different currency on **per product** basis.
+* Make external product link open in a new tab on **per product** basis.
+* Use **dropdown** template for the "Multiple URLs".
+
 ### &#128472; Feedback ###
 
 * We are open to your suggestions and feedback. Thank you for using or trying out one of our plugins!
@@ -31,6 +39,11 @@ Adds more control over external/affiliate products in WooCommerce.
 3. Start by visiting plugin settings at "WooCommerce > Settings > Advanced External Products".
 
 == Changelog ==
+
+= 2.4.0 - 04/05/2023 =
+* Dev - Multiple URLs - Pro - "Template" options added (defaults to "Buttons"). "Dropdown" template added.
+* WC tested up to: 7.6.
+* Tested up to: 6.2.
 
 = 2.3.0 - 22/03/2023 =
 * Dev - "Multiple URLs" section added.

@@ -2,7 +2,7 @@
 /**
  * Advanced External Products for WooCommerce - Multiple URLs Section Settings
  *
- * @version 2.3.0
+ * @version 2.4.0
  * @since   2.3.0
  *
  * @author  Algoritmika Ltd.
@@ -29,7 +29,7 @@ class Alg_WC_AEP_Settings_Multiple_URLs extends Alg_WC_AEP_Settings_Section {
 	/**
 	 * get_settings.
 	 *
-	 * @version 2.3.0
+	 * @version 2.4.0
 	 * @since   2.3.0
 	 *
 	 * @todo    [next] (desc) `alg_wc_external_products_multiple_urls_enabled`: better desc?
@@ -51,12 +51,44 @@ class Alg_WC_AEP_Settings_Multiple_URLs extends Alg_WC_AEP_Settings_Section {
 				'type'     => 'checkbox',
 			),
 			array(
+				'type'     => 'sectionend',
+				'id'       => 'alg_wc_external_products_multiple_urls_options',
+			),
+			array(
+				'title'    => __( 'Single', 'external-products-currency-for-woocommerce' ),
+				'type'     => 'title',
+				'id'       => 'alg_wc_external_products_multiple_urls_single_options',
+			),
+			array(
 				'title'    => __( 'Single', 'external-products-currency-for-woocommerce' ),
 				'desc_tip' => __( 'Show multiple "add to cart" buttons for external products on <strong>single product pages</strong>.', 'external-products-currency-for-woocommerce' ),
 				'desc'     => __( 'Enable', 'external-products-currency-for-woocommerce' ),
 				'id'       => 'alg_wc_external_products_multiple_urls_single_enabled',
 				'default'  => 'no',
 				'type'     => 'checkbox',
+			),
+			array(
+				'title'    => __( 'Template', 'external-products-currency-for-woocommerce' ),
+				'desc'     => apply_filters( 'alg_wc_advanced_external_products_settings', sprintf(
+					'To select a template, please get the <a target="_blank" href="%s">Advanced External Products for WooCommerce Pro</a> plugin.',
+					'https://wpfactory.com/item/advanced-external-products-for-woocommerce/' ) ),
+				'id'       => 'alg_wc_external_products_multiple_urls_single_template',
+				'default'  => 'buttons',
+				'type'     => 'radio',
+				'options'  => array(
+					'buttons' => __( 'Buttons', 'external-products-currency-for-woocommerce' ),
+					'select'  => __( 'Dropdown', 'external-products-currency-for-woocommerce' ),
+				),
+				'custom_attributes' => apply_filters( 'alg_wc_advanced_external_products_settings', array( 'disabled' => 'disabled' ) ),
+			),
+			array(
+				'type'     => 'sectionend',
+				'id'       => 'alg_wc_external_products_multiple_urls_single_options',
+			),
+			array(
+				'title'    => __( 'Archives', 'external-products-currency-for-woocommerce' ),
+				'type'     => 'title',
+				'id'       => 'alg_wc_external_products_multiple_urls_loop_options',
 			),
 			array(
 				'title'    => __( 'Archives', 'external-products-currency-for-woocommerce' ),
@@ -67,8 +99,22 @@ class Alg_WC_AEP_Settings_Multiple_URLs extends Alg_WC_AEP_Settings_Section {
 				'type'     => 'checkbox',
 			),
 			array(
+				'title'    => __( 'Template', 'external-products-currency-for-woocommerce' ),
+				'desc'     => apply_filters( 'alg_wc_advanced_external_products_settings', sprintf(
+					'To select a template, please get the <a target="_blank" href="%s">Advanced External Products for WooCommerce Pro</a> plugin.',
+					'https://wpfactory.com/item/advanced-external-products-for-woocommerce/' ) ),
+				'id'       => 'alg_wc_external_products_multiple_urls_loop_template',
+				'default'  => 'buttons',
+				'type'     => 'radio',
+				'options'  => array(
+					'buttons' => __( 'Buttons', 'external-products-currency-for-woocommerce' ),
+					'select'  => __( 'Dropdown', 'external-products-currency-for-woocommerce' ),
+				),
+				'custom_attributes' => apply_filters( 'alg_wc_advanced_external_products_settings', array( 'disabled' => 'disabled' ) ),
+			),
+			array(
 				'type'     => 'sectionend',
-				'id'       => 'alg_wc_external_products_multiple_urls_options',
+				'id'       => 'alg_wc_external_products_multiple_urls_loop_options',
 			),
 		);
 	}

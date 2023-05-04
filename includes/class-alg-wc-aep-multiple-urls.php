@@ -2,7 +2,7 @@
 /**
  * Advanced External Products for WooCommerce - Multiple URLs Class
  *
- * @version 2.3.0
+ * @version 2.4.0
  * @since   2.3.0
  *
  * @author  Algoritmika Ltd.
@@ -62,7 +62,7 @@ class Alg_WC_AEP_Multiple_URLs {
 	/**
 	 * add_admin_field.
 	 *
-	 * @version 2.3.0
+	 * @version 2.4.0
 	 * @since   2.3.0
 	 *
 	 * @todo    [next] (desc) better description
@@ -77,8 +77,8 @@ class Alg_WC_AEP_Multiple_URLs {
 				'label'       => __( 'Extra product URLs', 'woocommerce' ),
 				'placeholder' => '',
 				'desc_tip'    => true,
-				'description' => sprintf( __( 'Additional URLs. One URL per line. Accepted formats: %s or %s.', 'external-products-currency-for-woocommerce' ),
-					'<code>url</code>', '<code>url|button_text</code>' ),
+				'description' => sprintf( __( 'Additional URLs. One URL per line. Accepted formats: %s, %s or %s.', 'external-products-currency-for-woocommerce' ),
+					'<code>url</code>', '<code>url|button_text</code>', '<code>url|button_text|option_label</code>' ),
 				'style'       => 'height:100px;',
 			)
 		);
@@ -87,7 +87,7 @@ class Alg_WC_AEP_Multiple_URLs {
 	/**
 	 * get_urls.
 	 *
-	 * @version 2.3.0
+	 * @version 2.4.0
 	 * @since   2.3.0
 	 */
 	function get_urls( $product = false ) {
@@ -100,8 +100,9 @@ class Alg_WC_AEP_Multiple_URLs {
 		foreach ( $data as $url ) {
 			$url = array_map( 'trim', explode( '|', $url ) );
 			$res[] = array(
-				'url' => $url[0],
-				'txt' => ( isset( $url[1] ) ? $url[1] : false ),
+				'url'   => $url[0],
+				'txt'   => ( isset( $url[1] ) ? $url[1] : false ),
+				'label' => ( isset( $url[2] ) ? $url[2] : false ),
 			);
 		}
 		return $res;
@@ -152,11 +153,11 @@ class Alg_WC_AEP_Multiple_URLs {
 	/**
 	 * loop.
 	 *
-	 * @version 2.3.0
+	 * @version 2.4.0
 	 * @since   2.3.0
 	 */
 	function loop() {
-		if ( ( 'yes' === get_option( 'alg_wc_external_products_multiple_urls_loop_enabled', 'no' ) ) && alg_wc_aep_is_external_product() ) {
+		if ( apply_filters( 'alg_wc_aep_multiple_urls_loop', true ) && 'yes' === get_option( 'alg_wc_external_products_multiple_urls_loop_enabled', 'no' ) && alg_wc_aep_is_external_product() ) {
 			foreach ( $this->get_urls() as $data ) {
 				$this->set_data( $data );
 				woocommerce_template_loop_add_to_cart();
@@ -168,11 +169,11 @@ class Alg_WC_AEP_Multiple_URLs {
 	/**
 	 * single.
 	 *
-	 * @version 2.3.0
+	 * @version 2.4.0
 	 * @since   2.3.0
 	 */
 	function single() {
-		if ( ( 'yes' === get_option( 'alg_wc_external_products_multiple_urls_single_enabled', 'no' ) ) && alg_wc_aep_is_external_product() ) {
+		if ( apply_filters( 'alg_wc_aep_multiple_urls_single', true ) && 'yes' === get_option( 'alg_wc_external_products_multiple_urls_single_enabled', 'no' ) && alg_wc_aep_is_external_product() ) {
 			remove_action( 'woocommerce_after_add_to_cart_form', array( $this, 'single' ) );
 			foreach ( $this->get_urls() as $data ) {
 				$this->set_data( $data );

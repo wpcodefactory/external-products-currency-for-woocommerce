@@ -1,10 +1,19 @@
-#: includes/class-alg-wc-aep-multiple-urls.php:77
+#: includes/class-alg-wc-aep-multiple-urls.php:75
 msgid "Extra product URLs"
 msgstr ""
 
-#: includes/class-alg-wc-aep-multiple-urls.php:80
+#: includes/class-alg-wc-aep-multiple-urls.php:77
+msgid "Additional URLs. One URL per line."
+msgstr ""
+
+#: includes/class-alg-wc-aep-multiple-urls.php:78
+msgid ""
+"Please note that the main/default \"Product URL\" option must also be set."
+msgstr ""
+
+#: includes/class-alg-wc-aep-multiple-urls.php:79
 #, php-format
-msgid "Additional URLs. One URL per line. Accepted formats: %s, %s or %s."
+msgid "Accepted formats: %s, %s or %s."
 msgstr ""
 
 #: includes/class-alg-wc-aep.php:131

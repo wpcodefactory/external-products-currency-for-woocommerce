@@ -3,12 +3,12 @@
 Plugin Name: Advanced External Products for WooCommerce
 Plugin URI: https://wpfactory.com/item/advanced-external-products-for-woocommerce/
 Description: Adds more control over external/affiliate products in WooCommerce.
-Version: 2.4.1
+Version: 2.4.2
 Author: WPFactory
 Author URI: https://wpfactory.com
 Text Domain: external-products-currency-for-woocommerce
 Domain Path: /langs
-WC tested up to: 7.8
+WC tested up to: 8.0
 */
 
 defined( 'ABSPATH' ) || exit;
@@ -29,7 +29,7 @@ if ( 'external-products-currency-for-woocommerce.php' === basename( __FILE__ ) )
 	}
 }
 
-defined( 'ALG_WC_AEP_VERSION' ) || define( 'ALG_WC_AEP_VERSION', '2.4.1' );
+defined( 'ALG_WC_AEP_VERSION' ) || define( 'ALG_WC_AEP_VERSION', '2.4.2' );
 
 defined( 'ALG_WC_AEP_FILE' ) || define( 'ALG_WC_AEP_FILE', __FILE__ );
 

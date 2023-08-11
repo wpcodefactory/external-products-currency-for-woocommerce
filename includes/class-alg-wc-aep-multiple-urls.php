@@ -2,7 +2,7 @@
 /**
  * Advanced External Products for WooCommerce - Multiple URLs Class
  *
- * @version 2.4.0
+ * @version 2.4.2
  * @since   2.3.0
  *
  * @author  Algoritmika Ltd.
@@ -62,26 +62,73 @@ class Alg_WC_AEP_Multiple_URLs {
 	/**
 	 * add_admin_field.
 	 *
-	 * @version 2.4.0
+	 * @version 2.4.2
 	 * @since   2.3.0
-	 *
-	 * @todo    [next] (desc) better description
 	 */
 	function add_admin_field() {
 		if ( ! alg_wc_aep_is_external_product() ) {
 			return;
 		}
-		woocommerce_wp_textarea_input(
+		$this->woocommerce_wp_textarea_input(
 			array(
 				'id'          => '_alg_wc_aep_product_urls',
 				'label'       => __( 'Extra product URLs', 'woocommerce' ),
 				'placeholder' => '',
-				'desc_tip'    => true,
-				'description' => sprintf( __( 'Additional URLs. One URL per line. Accepted formats: %s, %s or %s.', 'external-products-currency-for-woocommerce' ),
+				'desc_tip'    => __( 'Additional URLs. One URL per line.', 'external-products-currency-for-woocommerce' ) . ' ' .
+					__( 'Please note that the main/default "Product URL" option must also be set.', 'external-products-currency-for-woocommerce' ),
+				'description' => sprintf( __( 'Accepted formats: %s, %s or %s.', 'external-products-currency-for-woocommerce' ),
 					'<code>url</code>', '<code>url|button_text</code>', '<code>url|button_text|option_label</code>' ),
 				'style'       => 'height:100px;',
 			)
 		);
+	}
+
+	/**
+	 * woocommerce_wp_textarea_input.
+	 *
+	 * `description` and `desc_tip` modifications.
+	 *
+	 * @version 2.4.2
+	 * @since   2.4.2
+	 *
+	 * @see     https://github.com/woocommerce/woocommerce/blob/8.0.1/plugins/woocommerce/includes/admin/wc-meta-box-functions.php#L105
+	 */
+	function woocommerce_wp_textarea_input( $field, WC_Data $data = null ) {
+		global $post;
+
+		$field['placeholder']   = isset( $field['placeholder'] ) ? $field['placeholder'] : '';
+		$field['class']         = isset( $field['class'] ) ? $field['class'] : 'short';
+		$field['style']         = isset( $field['style'] ) ? $field['style'] : '';
+		$field['wrapper_class'] = isset( $field['wrapper_class'] ) ? $field['wrapper_class'] : '';
+		$field['value']         = $field['value'] ?? Automattic\WooCommerce\Utilities\OrderUtil::get_post_or_object_meta( $post, $data, $field['id'], true );
+		$field['name']          = isset( $field['name'] ) ? $field['name'] : $field['id'];
+		$field['rows']          = isset( $field['rows'] ) ? $field['rows'] : 2;
+		$field['cols']          = isset( $field['cols'] ) ? $field['cols'] : 20;
+
+		// Custom attribute handling
+		$custom_attributes = array();
+
+		if ( ! empty( $field['custom_attributes'] ) && is_array( $field['custom_attributes'] ) ) {
+
+			foreach ( $field['custom_attributes'] as $attribute => $value ) {
+				$custom_attributes[] = esc_attr( $attribute ) . '="' . esc_attr( $value ) . '"';
+			}
+		}
+
+		echo '<p class="form-field ' . esc_attr( $field['id'] ) . '_field ' . esc_attr( $field['wrapper_class'] ) . '">
+			<label for="' . esc_attr( $field['id'] ) . '">' . wp_kses_post( $field['label'] ) . '</label>';
+
+		if ( ! empty( $field['desc_tip'] ) ) {
+			echo wc_help_tip( $field['desc_tip'] );
+		}
+
+		echo '<textarea class="' . esc_attr( $field['class'] ) . '" style="' . esc_attr( $field['style'] ) . '"  name="' . esc_attr( $field['name'] ) . '" id="' . esc_attr( $field['id'] ) . '" placeholder="' . esc_attr( $field['placeholder'] ) . '" rows="' . esc_attr( $field['rows'] ) . '" cols="' . esc_attr( $field['cols'] ) . '" ' . implode( ' ', $custom_attributes ) . '>' . esc_textarea( $field['value'] ) . '</textarea> ';
+
+		if ( ! empty( $field['description'] ) ) {
+			echo '<span class="description" style="display: block; clear: both; margin-left: 0;">' . wp_kses_post( $field['description'] ) . '</span>';
+		}
+
+		echo '</p>';
 	}
 
 	/**

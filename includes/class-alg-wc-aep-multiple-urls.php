@@ -2,7 +2,7 @@
 /**
  * Advanced External Products for WooCommerce - Multiple URLs Class
  *
- * @version 2.4.2
+ * @version 2.4.3
  * @since   2.3.0
  *
  * @author  Algoritmika Ltd.
@@ -13,6 +13,15 @@ defined( 'ABSPATH' ) || exit;
 if ( ! class_exists( 'Alg_WC_AEP_Multiple_URLs' ) ) :
 
 class Alg_WC_AEP_Multiple_URLs {
+
+	/**
+	 * Public.
+	 *
+	 * @version 2.4.3
+	 * @since   2.4.3
+	 */
+	public $url;
+	public $txt;
 
 	/**
 	 * Constructor.

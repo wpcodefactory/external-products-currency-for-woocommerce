@@ -1,26 +1,26 @@
-#: includes/class-alg-wc-aep-multiple-urls.php:75
+#: includes/class-alg-wc-aep-multiple-urls.php:84
 msgid "Extra product URLs"
 msgstr ""
 
-#: includes/class-alg-wc-aep-multiple-urls.php:77
+#: includes/class-alg-wc-aep-multiple-urls.php:86
 msgid "Additional URLs. One URL per line."
 msgstr ""
 
-#: includes/class-alg-wc-aep-multiple-urls.php:78
+#: includes/class-alg-wc-aep-multiple-urls.php:87
 msgid ""
 "Please note that the main/default \"Product URL\" option must also be set."
 msgstr ""
 
-#: includes/class-alg-wc-aep-multiple-urls.php:79
+#: includes/class-alg-wc-aep-multiple-urls.php:88
 #, php-format
 msgid "Accepted formats: %s, %s or %s."
 msgstr ""
 
-#: includes/class-alg-wc-aep.php:131
+#: includes/class-alg-wc-aep.php:151
 msgid "Settings"
 msgstr ""
 
-#: includes/class-alg-wc-aep.php:134
+#: includes/class-alg-wc-aep.php:154
 msgid "Go Pro"
 msgstr ""
 

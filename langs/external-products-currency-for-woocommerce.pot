@@ -1,266 +1,270 @@
-#: E:\xampp\htdocs\wpfactory-local\wp-content\plugins\external-products-currency-for-woocommerce-pro\includes\class-alg-wc-aep-multiple-urls.php:84
-msgid "Extra product URLs"
+# Copyright (C) 2024 WPFactory
+# This file is distributed under the same license as the Advanced External Products for WooCommerce Pro plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: external-products-currency-for-woocommerce 2.4.5\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/external-products-currency-for-woocommerce\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-07-30T08:04:29+02:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.9.0\n"
+"X-Domain: external-products-currency-for-woocommerce\n"
+
+#. Plugin Name of the plugin
+msgid "Advanced External Products for WooCommerce Pro"
 msgstr ""
 
-#: E:\xampp\htdocs\wpfactory-local\wp-content\plugins\external-products-currency-for-woocommerce-pro\includes\class-alg-wc-aep-multiple-urls.php:86
+#. Plugin URI of the plugin
+msgid "https://wpfactory.com/item/advanced-external-products-for-woocommerce/"
+msgstr ""
+
+#. Description of the plugin
+msgid "Adds more control over external/affiliate products in WooCommerce."
+msgstr ""
+
+#. Author of the plugin
+msgid "WPFactory"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://wpfactory.com"
+msgstr ""
+
+#: includes/class-alg-wc-aep-multiple-urls.php:86
 msgid "Additional URLs. One URL per line."
 msgstr ""
 
-#: E:\xampp\htdocs\wpfactory-local\wp-content\plugins\external-products-currency-for-woocommerce-pro\includes\class-alg-wc-aep-multiple-urls.php:87
-msgid ""
-"Please note that the main/default \"Product URL\" option must also be set."
+#: includes/class-alg-wc-aep-multiple-urls.php:87
+msgid "Please note that the main/default \"Product URL\" option must also be set."
 msgstr ""
 
-#: E:\xampp\htdocs\wpfactory-local\wp-content\plugins\external-products-currency-for-woocommerce-pro\includes\class-alg-wc-aep-multiple-urls.php:88
-#, php-format
+#: includes/class-alg-wc-aep-multiple-urls.php:88
 msgid "Accepted formats: %s, %s or %s."
 msgstr ""
 
-#: E:\xampp\htdocs\wpfactory-local\wp-content\plugins\external-products-currency-for-woocommerce-pro\includes\class-alg-wc-aep.php:151
-msgid "Settings"
-msgstr ""
-
-#: E:\xampp\htdocs\wpfactory-local\wp-content\plugins\external-products-currency-for-woocommerce-pro\includes\class-alg-wc-aep.php:154
+#: includes/class-alg-wc-aep.php:154
 msgid "Go Pro"
 msgstr ""
 
-#: E:\xampp\htdocs\wpfactory-local\wp-content\plugins\external-products-currency-for-woocommerce-pro\includes\pro\class-alg-wc-aep-pro-currency.php:57
-#: E:\xampp\htdocs\wpfactory-local\wp-content\plugins\external-products-currency-for-woocommerce-pro\includes\settings\class-alg-wc-aep-settings-currency.php:25
-#: E:\xampp\htdocs\wpfactory-local\wp-content\plugins\external-products-currency-for-woocommerce-pro\includes\settings\class-alg-wc-aep-settings-currency.php:38
-#: E:\xampp\htdocs\wpfactory-local\wp-content\plugins\external-products-currency-for-woocommerce-pro\includes\settings\class-alg-wc-aep-settings-currency.php:44
+#: includes/pro/class-alg-wc-aep-pro-currency.php:57
+#: includes/settings/class-alg-wc-aep-settings-currency.php:25
+#: includes/settings/class-alg-wc-aep-settings-currency.php:38
+#: includes/settings/class-alg-wc-aep-settings-currency.php:44
 msgid "Currency"
 msgstr ""
 
-#: E:\xampp\htdocs\wpfactory-local\wp-content\plugins\external-products-currency-for-woocommerce-pro\includes\pro\class-alg-wc-aep-pro-currency.php:58
-#: E:\xampp\htdocs\wpfactory-local\wp-content\plugins\external-products-currency-for-woocommerce-pro\includes\pro\class-alg-wc-aep-pro-links.php:78
-#: E:\xampp\htdocs\wpfactory-local\wp-content\plugins\external-products-currency-for-woocommerce-pro\includes\pro\class-alg-wc-aep-pro-links.php:117
+#: includes/pro/class-alg-wc-aep-pro-currency.php:58
+#: includes/pro/class-alg-wc-aep-pro-links.php:78
+#: includes/pro/class-alg-wc-aep-pro-links.php:117
 msgid "Default"
 msgstr ""
 
-#: E:\xampp\htdocs\wpfactory-local\wp-content\plugins\external-products-currency-for-woocommerce-pro\includes\pro\class-alg-wc-aep-pro-links.php:74
+#: includes/pro/class-alg-wc-aep-pro-links.php:74
 msgid "Link in a new tab"
 msgstr ""
 
-#: E:\xampp\htdocs\wpfactory-local\wp-content\plugins\external-products-currency-for-woocommerce-pro\includes\pro\class-alg-wc-aep-pro-links.php:76
+#: includes/pro/class-alg-wc-aep-pro-links.php:76
 msgid "Open link in a new tab."
 msgstr ""
 
-#: E:\xampp\htdocs\wpfactory-local\wp-content\plugins\external-products-currency-for-woocommerce-pro\includes\pro\class-alg-wc-aep-pro-links.php:79
-#: E:\xampp\htdocs\wpfactory-local\wp-content\plugins\external-products-currency-for-woocommerce-pro\includes\pro\class-alg-wc-aep-pro-links.php:118
+#: includes/pro/class-alg-wc-aep-pro-links.php:79
+#: includes/pro/class-alg-wc-aep-pro-links.php:118
 msgid "Yes"
 msgstr ""
 
-#: E:\xampp\htdocs\wpfactory-local\wp-content\plugins\external-products-currency-for-woocommerce-pro\includes\pro\class-alg-wc-aep-pro-links.php:80
-#: E:\xampp\htdocs\wpfactory-local\wp-content\plugins\external-products-currency-for-woocommerce-pro\includes\pro\class-alg-wc-aep-pro-links.php:119
+#: includes/pro/class-alg-wc-aep-pro-links.php:80
+#: includes/pro/class-alg-wc-aep-pro-links.php:119
 msgid "No"
 msgstr ""
 
-#: E:\xampp\htdocs\wpfactory-local\wp-content\plugins\external-products-currency-for-woocommerce-pro\includes\pro\class-alg-wc-aep-pro-links.php:113
+#: includes/pro/class-alg-wc-aep-pro-links.php:113
 msgid "Link in a new tab on archives"
 msgstr ""
 
-#: E:\xampp\htdocs\wpfactory-local\wp-content\plugins\external-products-currency-for-woocommerce-pro\includes\pro\class-alg-wc-aep-pro-links.php:115
+#: includes/pro/class-alg-wc-aep-pro-links.php:115
 msgid "Open link in a new tab on archives."
 msgstr ""
 
-#: E:\xampp\htdocs\wpfactory-local\wp-content\plugins\external-products-currency-for-woocommerce-pro\includes\pro\class-alg-wc-aep-pro-multiple-urls.php:175
-msgid "Default label"
-msgstr ""
-
-#: E:\xampp\htdocs\wpfactory-local\wp-content\plugins\external-products-currency-for-woocommerce-pro\includes\pro\class-alg-wc-aep-pro-multiple-urls.php:178
+#: includes/pro/class-alg-wc-aep-pro-multiple-urls.php:178
 msgid "Used for the \"Dropdown\" template."
 msgstr ""
 
-#: E:\xampp\htdocs\wpfactory-local\wp-content\plugins\external-products-currency-for-woocommerce-pro\includes\settings\class-alg-wc-aep-settings-currency.php:39
+#: includes/settings/class-alg-wc-aep-settings-currency.php:39
 msgid "Set different currency for external/affiliate products."
 msgstr ""
 
-#: E:\xampp\htdocs\wpfactory-local\wp-content\plugins\external-products-currency-for-woocommerce-pro\includes\settings\class-alg-wc-aep-settings-currency.php:45
-#: E:\xampp\htdocs\wpfactory-local\wp-content\plugins\external-products-currency-for-woocommerce-pro\includes\settings\class-alg-wc-aep-settings-links.php:45
-#: E:\xampp\htdocs\wpfactory-local\wp-content\plugins\external-products-currency-for-woocommerce-pro\includes\settings\class-alg-wc-aep-settings-multiple-urls.php:48
+#: includes/settings/class-alg-wc-aep-settings-currency.php:45
+#: includes/settings/class-alg-wc-aep-settings-links.php:45
+#: includes/settings/class-alg-wc-aep-settings-multiple-urls.php:48
 msgid "Enable section"
 msgstr ""
 
-#: E:\xampp\htdocs\wpfactory-local\wp-content\plugins\external-products-currency-for-woocommerce-pro\includes\settings\class-alg-wc-aep-settings-currency.php:51
+#: includes/settings/class-alg-wc-aep-settings-currency.php:51
 msgid "All products"
 msgstr ""
 
-#: E:\xampp\htdocs\wpfactory-local\wp-content\plugins\external-products-currency-for-woocommerce-pro\includes\settings\class-alg-wc-aep-settings-currency.php:52
+#: includes/settings/class-alg-wc-aep-settings-currency.php:52
 msgid "Currency for <strong>all</strong> external <strong>products</strong>."
 msgstr ""
 
-#: E:\xampp\htdocs\wpfactory-local\wp-content\plugins\external-products-currency-for-woocommerce-pro\includes\settings\class-alg-wc-aep-settings-currency.php:53
-#: E:\xampp\htdocs\wpfactory-local\wp-content\plugins\external-products-currency-for-woocommerce-pro\includes\settings\class-alg-wc-aep-settings-currency.php:72
-#: E:\xampp\htdocs\wpfactory-local\wp-content\plugins\external-products-currency-for-woocommerce-pro\includes\settings\class-alg-wc-aep-settings-currency.php:81
-#: E:\xampp\htdocs\wpfactory-local\wp-content\plugins\external-products-currency-for-woocommerce-pro\includes\settings\class-alg-wc-aep-settings-links.php:62
-#: E:\xampp\htdocs\wpfactory-local\wp-content\plugins\external-products-currency-for-woocommerce-pro\includes\settings\class-alg-wc-aep-settings-links.php:70
-#: E:\xampp\htdocs\wpfactory-local\wp-content\plugins\external-products-currency-for-woocommerce-pro\includes\settings\class-alg-wc-aep-settings-links.php:91
-#: E:\xampp\htdocs\wpfactory-local\wp-content\plugins\external-products-currency-for-woocommerce-pro\includes\settings\class-alg-wc-aep-settings-links.php:104
-#: E:\xampp\htdocs\wpfactory-local\wp-content\plugins\external-products-currency-for-woocommerce-pro\includes\settings\class-alg-wc-aep-settings-multiple-urls.php:65
-#: E:\xampp\htdocs\wpfactory-local\wp-content\plugins\external-products-currency-for-woocommerce-pro\includes\settings\class-alg-wc-aep-settings-multiple-urls.php:96
+#: includes/settings/class-alg-wc-aep-settings-currency.php:53
+#: includes/settings/class-alg-wc-aep-settings-currency.php:72
+#: includes/settings/class-alg-wc-aep-settings-currency.php:81
+#: includes/settings/class-alg-wc-aep-settings-links.php:62
+#: includes/settings/class-alg-wc-aep-settings-links.php:70
+#: includes/settings/class-alg-wc-aep-settings-links.php:91
+#: includes/settings/class-alg-wc-aep-settings-links.php:104
+#: includes/settings/class-alg-wc-aep-settings-multiple-urls.php:65
+#: includes/settings/class-alg-wc-aep-settings-multiple-urls.php:96
 msgid "Enable"
 msgstr ""
 
-#: E:\xampp\htdocs\wpfactory-local\wp-content\plugins\external-products-currency-for-woocommerce-pro\includes\settings\class-alg-wc-aep-settings-currency.php:66
+#: includes/settings/class-alg-wc-aep-settings-currency.php:66
 msgid "Per product"
 msgstr ""
 
-#: E:\xampp\htdocs\wpfactory-local\wp-content\plugins\external-products-currency-for-woocommerce-pro\includes\settings\class-alg-wc-aep-settings-currency.php:67
+#: includes/settings/class-alg-wc-aep-settings-currency.php:67
 msgid "Currency for external products on <strong>per product</strong> basis."
 msgstr ""
 
-#: E:\xampp\htdocs\wpfactory-local\wp-content\plugins\external-products-currency-for-woocommerce-pro\includes\settings\class-alg-wc-aep-settings-currency.php:68
+#: includes/settings/class-alg-wc-aep-settings-currency.php:68
 msgid "This will add \"Currency\" input field to each product's edit page."
 msgstr ""
 
-#: E:\xampp\htdocs\wpfactory-local\wp-content\plugins\external-products-currency-for-woocommerce-pro\includes\settings\class-alg-wc-aep-settings-currency.php:79
+#: includes/settings/class-alg-wc-aep-settings-currency.php:79
 msgid "Currency symbol"
 msgstr ""
 
-#: E:\xampp\htdocs\wpfactory-local\wp-content\plugins\external-products-currency-for-woocommerce-pro\includes\settings\class-alg-wc-aep-settings-currency.php:80
+#: includes/settings/class-alg-wc-aep-settings-currency.php:80
 msgid "Custom currency symbol template for all external products."
 msgstr ""
 
-#: E:\xampp\htdocs\wpfactory-local\wp-content\plugins\external-products-currency-for-woocommerce-pro\includes\settings\class-alg-wc-aep-settings-currency.php:87
-#, php-format
+#: includes/settings/class-alg-wc-aep-settings-currency.php:87
 msgid "Available placeholders: %s."
 msgstr ""
 
-#: E:\xampp\htdocs\wpfactory-local\wp-content\plugins\external-products-currency-for-woocommerce-pro\includes\settings\class-alg-wc-aep-settings-links.php:25
-#: E:\xampp\htdocs\wpfactory-local\wp-content\plugins\external-products-currency-for-woocommerce-pro\includes\settings\class-alg-wc-aep-settings-links.php:38
-#: E:\xampp\htdocs\wpfactory-local\wp-content\plugins\external-products-currency-for-woocommerce-pro\includes\settings\class-alg-wc-aep-settings-links.php:44
+#: includes/settings/class-alg-wc-aep-settings-links.php:38
+#: includes/settings/class-alg-wc-aep-settings-links.php:44
 msgid "Links"
 msgstr ""
 
-#: E:\xampp\htdocs\wpfactory-local\wp-content\plugins\external-products-currency-for-woocommerce-pro\includes\settings\class-alg-wc-aep-settings-links.php:39
+#: includes/settings/class-alg-wc-aep-settings-links.php:39
 msgid "Make external/affiliate products links open in a new tab."
 msgstr ""
 
-#: E:\xampp\htdocs\wpfactory-local\wp-content\plugins\external-products-currency-for-woocommerce-pro\includes\settings\class-alg-wc-aep-settings-links.php:55
+#: includes/settings/class-alg-wc-aep-settings-links.php:55
 msgid "All Products"
 msgstr ""
 
-#: E:\xampp\htdocs\wpfactory-local\wp-content\plugins\external-products-currency-for-woocommerce-pro\includes\settings\class-alg-wc-aep-settings-links.php:60
-#: E:\xampp\htdocs\wpfactory-local\wp-content\plugins\external-products-currency-for-woocommerce-pro\includes\settings\class-alg-wc-aep-settings-links.php:85
-#: E:\xampp\htdocs\wpfactory-local\wp-content\plugins\external-products-currency-for-woocommerce-pro\includes\settings\class-alg-wc-aep-settings-multiple-urls.php:58
-#: E:\xampp\htdocs\wpfactory-local\wp-content\plugins\external-products-currency-for-woocommerce-pro\includes\settings\class-alg-wc-aep-settings-multiple-urls.php:63
+#: includes/settings/class-alg-wc-aep-settings-links.php:60
+#: includes/settings/class-alg-wc-aep-settings-links.php:85
+#: includes/settings/class-alg-wc-aep-settings-multiple-urls.php:58
+#: includes/settings/class-alg-wc-aep-settings-multiple-urls.php:63
 msgid "Single"
 msgstr ""
 
-#: E:\xampp\htdocs\wpfactory-local\wp-content\plugins\external-products-currency-for-woocommerce-pro\includes\settings\class-alg-wc-aep-settings-links.php:61
-msgid ""
-"Open link in a new tab for <strong>all</strong> external <strong>products</"
-"strong> on <strong>single product pages</strong>."
+#: includes/settings/class-alg-wc-aep-settings-links.php:61
+msgid "Open link in a new tab for <strong>all</strong> external <strong>products</strong> on <strong>single product pages</strong>."
 msgstr ""
 
-#: E:\xampp\htdocs\wpfactory-local\wp-content\plugins\external-products-currency-for-woocommerce-pro\includes\settings\class-alg-wc-aep-settings-links.php:68
-#: E:\xampp\htdocs\wpfactory-local\wp-content\plugins\external-products-currency-for-woocommerce-pro\includes\settings\class-alg-wc-aep-settings-links.php:98
-#: E:\xampp\htdocs\wpfactory-local\wp-content\plugins\external-products-currency-for-woocommerce-pro\includes\settings\class-alg-wc-aep-settings-multiple-urls.php:89
-#: E:\xampp\htdocs\wpfactory-local\wp-content\plugins\external-products-currency-for-woocommerce-pro\includes\settings\class-alg-wc-aep-settings-multiple-urls.php:94
+#: includes/settings/class-alg-wc-aep-settings-links.php:68
+#: includes/settings/class-alg-wc-aep-settings-links.php:98
+#: includes/settings/class-alg-wc-aep-settings-multiple-urls.php:89
+#: includes/settings/class-alg-wc-aep-settings-multiple-urls.php:94
 msgid "Archives"
 msgstr ""
 
-#: E:\xampp\htdocs\wpfactory-local\wp-content\plugins\external-products-currency-for-woocommerce-pro\includes\settings\class-alg-wc-aep-settings-links.php:69
-msgid ""
-"Open link in a new tab for <strong>all</strong> external <strong>products</"
-"strong> on <strong>archives</strong>."
+#: includes/settings/class-alg-wc-aep-settings-links.php:69
+msgid "Open link in a new tab for <strong>all</strong> external <strong>products</strong> on <strong>archives</strong>."
 msgstr ""
 
-#: E:\xampp\htdocs\wpfactory-local\wp-content\plugins\external-products-currency-for-woocommerce-pro\includes\settings\class-alg-wc-aep-settings-links.php:80
+#: includes/settings/class-alg-wc-aep-settings-links.php:80
 msgid "Per Product"
 msgstr ""
 
-#: E:\xampp\htdocs\wpfactory-local\wp-content\plugins\external-products-currency-for-woocommerce-pro\includes\settings\class-alg-wc-aep-settings-links.php:86
-msgid ""
-"Open link in a new tab for external products on <strong>per product</strong> "
-"basis on <strong>single product pages</strong>."
+#: includes/settings/class-alg-wc-aep-settings-links.php:86
+msgid "Open link in a new tab for external products on <strong>per product</strong> basis on <strong>single product pages</strong>."
 msgstr ""
 
-#: E:\xampp\htdocs\wpfactory-local\wp-content\plugins\external-products-currency-for-woocommerce-pro\includes\settings\class-alg-wc-aep-settings-links.php:87
-msgid ""
-"This will add \"Link in a new tab\" input field to each product's edit page."
+#: includes/settings/class-alg-wc-aep-settings-links.php:87
+msgid "This will add \"Link in a new tab\" input field to each product's edit page."
 msgstr ""
 
-#: E:\xampp\htdocs\wpfactory-local\wp-content\plugins\external-products-currency-for-woocommerce-pro\includes\settings\class-alg-wc-aep-settings-links.php:99
-msgid ""
-"Open link in a new tab for external products on <strong>per product</strong> "
-"basis on <strong>archives</strong>."
+#: includes/settings/class-alg-wc-aep-settings-links.php:99
+msgid "Open link in a new tab for external products on <strong>per product</strong> basis on <strong>archives</strong>."
 msgstr ""
 
-#: E:\xampp\htdocs\wpfactory-local\wp-content\plugins\external-products-currency-for-woocommerce-pro\includes\settings\class-alg-wc-aep-settings-links.php:100
-msgid ""
-"This will add \"Link in a new tab on archives\" input field to each "
-"product's edit page."
+#: includes/settings/class-alg-wc-aep-settings-links.php:100
+msgid "This will add \"Link in a new tab on archives\" input field to each product's edit page."
 msgstr ""
 
-#: E:\xampp\htdocs\wpfactory-local\wp-content\plugins\external-products-currency-for-woocommerce-pro\includes\settings\class-alg-wc-aep-settings-multiple-urls.php:25
+#: includes/settings/class-alg-wc-aep-settings-multiple-urls.php:25
 msgid "Multiple URLs"
 msgstr ""
 
-#: E:\xampp\htdocs\wpfactory-local\wp-content\plugins\external-products-currency-for-woocommerce-pro\includes\settings\class-alg-wc-aep-settings-multiple-urls.php:40
+#: includes/settings/class-alg-wc-aep-settings-multiple-urls.php:40
 msgid "Multiple Product URLs"
 msgstr ""
 
-#: E:\xampp\htdocs\wpfactory-local\wp-content\plugins\external-products-currency-for-woocommerce-pro\includes\settings\class-alg-wc-aep-settings-multiple-urls.php:41
+#: includes/settings/class-alg-wc-aep-settings-multiple-urls.php:41
 msgid "Set multiple URLs per product."
 msgstr ""
 
-#: E:\xampp\htdocs\wpfactory-local\wp-content\plugins\external-products-currency-for-woocommerce-pro\includes\settings\class-alg-wc-aep-settings-multiple-urls.php:46
+#: includes/settings/class-alg-wc-aep-settings-multiple-urls.php:46
 msgid "Multiple product URLs"
 msgstr ""
 
-#: E:\xampp\htdocs\wpfactory-local\wp-content\plugins\external-products-currency-for-woocommerce-pro\includes\settings\class-alg-wc-aep-settings-multiple-urls.php:47
-msgid ""
-"This will add \"Extra product URLs\" input field to each product's edit page."
+#: includes/settings/class-alg-wc-aep-settings-multiple-urls.php:47
+msgid "This will add \"Extra product URLs\" input field to each product's edit page."
 msgstr ""
 
-#: E:\xampp\htdocs\wpfactory-local\wp-content\plugins\external-products-currency-for-woocommerce-pro\includes\settings\class-alg-wc-aep-settings-multiple-urls.php:64
-msgid ""
-"Show multiple \"add to cart\" buttons for external products on "
-"<strong>single product pages</strong>."
+#: includes/settings/class-alg-wc-aep-settings-multiple-urls.php:64
+msgid "Show multiple \"add to cart\" buttons for external products on <strong>single product pages</strong>."
 msgstr ""
 
-#: E:\xampp\htdocs\wpfactory-local\wp-content\plugins\external-products-currency-for-woocommerce-pro\includes\settings\class-alg-wc-aep-settings-multiple-urls.php:71
-#: E:\xampp\htdocs\wpfactory-local\wp-content\plugins\external-products-currency-for-woocommerce-pro\includes\settings\class-alg-wc-aep-settings-multiple-urls.php:102
+#: includes/settings/class-alg-wc-aep-settings-multiple-urls.php:71
+#: includes/settings/class-alg-wc-aep-settings-multiple-urls.php:102
 msgid "Template"
 msgstr ""
 
-#: E:\xampp\htdocs\wpfactory-local\wp-content\plugins\external-products-currency-for-woocommerce-pro\includes\settings\class-alg-wc-aep-settings-multiple-urls.php:79
-#: E:\xampp\htdocs\wpfactory-local\wp-content\plugins\external-products-currency-for-woocommerce-pro\includes\settings\class-alg-wc-aep-settings-multiple-urls.php:110
+#: includes/settings/class-alg-wc-aep-settings-multiple-urls.php:79
+#: includes/settings/class-alg-wc-aep-settings-multiple-urls.php:110
 msgid "Buttons"
 msgstr ""
 
-#: E:\xampp\htdocs\wpfactory-local\wp-content\plugins\external-products-currency-for-woocommerce-pro\includes\settings\class-alg-wc-aep-settings-multiple-urls.php:80
-#: E:\xampp\htdocs\wpfactory-local\wp-content\plugins\external-products-currency-for-woocommerce-pro\includes\settings\class-alg-wc-aep-settings-multiple-urls.php:111
+#: includes/settings/class-alg-wc-aep-settings-multiple-urls.php:80
+#: includes/settings/class-alg-wc-aep-settings-multiple-urls.php:111
 msgid "Dropdown"
 msgstr ""
 
-#: E:\xampp\htdocs\wpfactory-local\wp-content\plugins\external-products-currency-for-woocommerce-pro\includes\settings\class-alg-wc-aep-settings-multiple-urls.php:95
-msgid ""
-"Show multiple \"add to cart\" buttons for external products on "
-"<strong>archives</strong>."
+#: includes/settings/class-alg-wc-aep-settings-multiple-urls.php:95
+msgid "Show multiple \"add to cart\" buttons for external products on <strong>archives</strong>."
 msgstr ""
 
-#: E:\xampp\htdocs\wpfactory-local\wp-content\plugins\external-products-currency-for-woocommerce-pro\includes\settings\class-alg-wc-settings-aep.php:25
+#: includes/settings/class-alg-wc-settings-aep.php:25
 msgid "Advanced External Products"
 msgstr ""
 
-#: E:\xampp\htdocs\wpfactory-local\wp-content\plugins\external-products-currency-for-woocommerce-pro\includes\settings\class-alg-wc-settings-aep.php:55
+#: includes/settings/class-alg-wc-settings-aep.php:55
 msgid "Reset Settings"
 msgstr ""
 
-#: E:\xampp\htdocs\wpfactory-local\wp-content\plugins\external-products-currency-for-woocommerce-pro\includes\settings\class-alg-wc-settings-aep.php:60
+#: includes/settings/class-alg-wc-settings-aep.php:60
 msgid "Reset section settings"
 msgstr ""
 
-#: E:\xampp\htdocs\wpfactory-local\wp-content\plugins\external-products-currency-for-woocommerce-pro\includes\settings\class-alg-wc-settings-aep.php:61
+#: includes/settings/class-alg-wc-settings-aep.php:61
 msgid "Reset"
 msgstr ""
 
-#: E:\xampp\htdocs\wpfactory-local\wp-content\plugins\external-products-currency-for-woocommerce-pro\includes\settings\class-alg-wc-settings-aep.php:62
+#: includes/settings/class-alg-wc-settings-aep.php:62
 msgid "Check the box and save changes to reset."
 msgstr ""
 
-#: E:\xampp\htdocs\wpfactory-local\wp-content\plugins\external-products-currency-for-woocommerce-pro\includes\settings\class-alg-wc-settings-aep.php:101
+#: includes/settings/class-alg-wc-settings-aep.php:101
 msgid "Your settings have been reset."
 msgstr ""

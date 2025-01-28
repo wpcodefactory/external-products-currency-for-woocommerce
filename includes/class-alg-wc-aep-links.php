@@ -2,7 +2,7 @@
 /**
  * Advanced External Products for WooCommerce - Links Class
  *
- * @version 2.3.0
+ * @version 2.5.0
  * @since   2.3.0
  *
  * @author  Algoritmika Ltd.
@@ -15,12 +15,20 @@ if ( ! class_exists( 'Alg_WC_AEP_Links' ) ) :
 class Alg_WC_AEP_Links {
 
 	/**
+	 * add_to_cart_form_started.
+	 *
+	 * @version 2.5.0
+	 * @since   2.5.0
+	 */
+	public $add_to_cart_form_started;
+
+	/**
 	 * Constructor.
 	 *
 	 * @version 2.3.0
 	 * @since   2.3.0
 	 *
-	 * @todo    [maybe] (dev) alternative way for opening link in new tab (e.g., replace whole `external.php` template)
+	 * @todo    (dev) alternative way for opening link in new tab (e.g., replace whole `external.php` template)?
 	 */
 	function __construct() {
 
@@ -79,10 +87,13 @@ class Alg_WC_AEP_Links {
 	 * @since   2.0.0
 	 */
 	function add_to_cart_single_end() {
-		if ( alg_wc_aep_is_external_product() && ! empty( $this->add_to_cart_form_started ) ) {
+		if (
+			alg_wc_aep_is_external_product() &&
+			! empty( $this->add_to_cart_form_started )
+		) {
 			$output = ob_get_clean();
 			$output = str_replace( '<form', '<form target="_blank"', $output );
-			echo $output;
+			echo $output; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
 			$this->add_to_cart_form_started = false;
 		}
 	}

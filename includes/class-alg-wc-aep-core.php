@@ -2,7 +2,7 @@
 /**
  * Advanced External Products for WooCommerce - Core Class
  *
- * @version 2.4.0
+ * @version 2.5.0
  * @since   1.0.0
  *
  * @author  Algoritmika Ltd.
@@ -25,29 +25,29 @@ class Alg_WC_AEP_Core {
 	/**
 	 * Constructor.
 	 *
-	 * @version 2.4.0
+	 * @version 2.5.0
 	 * @since   1.0.0
 	 *
-	 * @todo    [next] (dev) remove this class?
+	 * @todo    (dev) remove this class?
 	 */
 	function __construct() {
 
 		// Functions
-		require_once( 'alg-wc-aep-functions.php' );
+		require_once plugin_dir_path( __FILE__ ) . 'alg-wc-aep-functions.php';
 
 		// Currency
 		if ( 'yes' === get_option( 'alg_wc_external_products_currency_enabled', 'yes' ) ) {
-			$this->modules['currency'] = require_once( 'class-alg-wc-aep-currency.php' );
+			$this->modules['currency'] = require_once plugin_dir_path( __FILE__ ) . 'class-alg-wc-aep-currency.php';
 		}
 
 		// Links
 		if ( 'yes' === get_option( 'alg_wc_external_products_links_enabled', 'yes' ) ) {
-			$this->modules['links'] = require_once( 'class-alg-wc-aep-links.php' );
+			$this->modules['links'] = require_once plugin_dir_path( __FILE__ ) . 'class-alg-wc-aep-links.php';
 		}
 
 		// Multiple product URLs
 		if ( 'yes' === get_option( 'alg_wc_external_products_multiple_urls_enabled', 'yes' ) ) {
-			$this->modules['multiple_urls'] = require_once( 'class-alg-wc-aep-multiple-urls.php' );
+			$this->modules['multiple_urls'] = require_once plugin_dir_path( __FILE__ ) . 'class-alg-wc-aep-multiple-urls.php';
 		}
 
 		// Core loaded action

@@ -2,7 +2,7 @@
 /**
  * Advanced External Products for WooCommerce - Settings
  *
- * @version 2.3.0
+ * @version 2.5.0
  * @since   1.0.0
  *
  * @author  Algoritmika Ltd.
@@ -17,19 +17,23 @@ class Alg_WC_Settings_AEP extends WC_Settings_Page {
 	/**
 	 * Constructor.
 	 *
-	 * @version 2.3.0
+	 * @version 2.5.0
 	 * @since   1.0.0
 	 */
 	function __construct() {
+
 		$this->id    = 'alg_wc_advanced_external_products';
 		$this->label = __( 'Advanced External Products', 'external-products-currency-for-woocommerce' );
 		parent::__construct();
+
 		add_filter( 'woocommerce_admin_settings_sanitize_option', array( $this, 'maybe_unsanitize_option' ), PHP_INT_MAX, 3 );
+
 		// Sections
-		require_once( 'class-alg-wc-aep-settings-section.php' );
-		require_once( 'class-alg-wc-aep-settings-currency.php' );
-		require_once( 'class-alg-wc-aep-settings-links.php' );
-		require_once( 'class-alg-wc-aep-settings-multiple-urls.php' );
+		require_once plugin_dir_path( __FILE__ ) . 'class-alg-wc-aep-settings-section.php';
+		require_once plugin_dir_path( __FILE__ ) . 'class-alg-wc-aep-settings-currency.php';
+		require_once plugin_dir_path( __FILE__ ) . 'class-alg-wc-aep-settings-links.php';
+		require_once plugin_dir_path( __FILE__ ) . 'class-alg-wc-aep-settings-multiple-urls.php';
+
 	}
 
 	/**
@@ -37,9 +41,15 @@ class Alg_WC_Settings_AEP extends WC_Settings_Page {
 	 *
 	 * @version 2.1.0
 	 * @since   2.1.0
+	 *
+	 * @todo    (dev) `wp_kses_post`?
 	 */
 	function maybe_unsanitize_option( $value, $option, $raw_value ) {
-		return ( ! empty( $option['alg_wc_aep_raw'] ) ? wp_kses_post( trim( $raw_value ) ) : $value );
+		return (
+			! empty( $option['alg_wc_aep_raw'] ) ?
+			wp_kses_post( trim( $raw_value ) ) :
+			$value
+		);
 	}
 
 	/**
@@ -50,25 +60,28 @@ class Alg_WC_Settings_AEP extends WC_Settings_Page {
 	 */
 	function get_settings() {
 		global $current_section;
-		return array_merge( apply_filters( 'woocommerce_get_settings_' . $this->id . '_' . $current_section, array() ), array(
+		return array_merge(
+			apply_filters( 'woocommerce_get_settings_' . $this->id . '_' . $current_section, array() ),
 			array(
-				'title'     => __( 'Reset Settings', 'external-products-currency-for-woocommerce' ),
-				'type'      => 'title',
-				'id'        => $this->id . '_' . $current_section . '_reset_options',
-			),
-			array(
-				'title'     => __( 'Reset section settings', 'external-products-currency-for-woocommerce' ),
-				'desc'      => '<strong>' . __( 'Reset', 'external-products-currency-for-woocommerce' ) . '</strong>',
-				'desc_tip'  => __( 'Check the box and save changes to reset.', 'external-products-currency-for-woocommerce' ),
-				'id'        => $this->id . '_' . $current_section . '_reset',
-				'default'   => 'no',
-				'type'      => 'checkbox',
-			),
-			array(
-				'type'      => 'sectionend',
-				'id'        => $this->id . '_' . $current_section . '_reset_options',
-			),
-		) );
+				array(
+					'title'     => __( 'Reset Settings', 'external-products-currency-for-woocommerce' ),
+					'type'      => 'title',
+					'id'        => $this->id . '_' . $current_section . '_reset_options',
+				),
+				array(
+					'title'     => __( 'Reset section settings', 'external-products-currency-for-woocommerce' ),
+					'desc'      => '<strong>' . __( 'Reset', 'external-products-currency-for-woocommerce' ) . '</strong>',
+					'desc_tip'  => __( 'Check the box and save changes to reset.', 'external-products-currency-for-woocommerce' ),
+					'id'        => $this->id . '_' . $current_section . '_reset',
+					'default'   => 'no',
+					'type'      => 'checkbox',
+				),
+				array(
+					'type'      => 'sectionend',
+					'id'        => $this->id . '_' . $current_section . '_reset_options',
+				),
+			)
+		);
 	}
 
 	/**
@@ -93,12 +106,13 @@ class Alg_WC_Settings_AEP extends WC_Settings_Page {
 	/**
 	 * admin_notice_settings_reset.
 	 *
-	 * @version 2.0.0
+	 * @version 2.5.0
 	 * @since   2.0.0
 	 */
 	function admin_notice_settings_reset() {
 		echo '<div class="notice notice-warning is-dismissible"><p><strong>' .
-			__( 'Your settings have been reset.', 'external-products-currency-for-woocommerce' ) . '</strong></p></div>';
+			esc_html__( 'Your settings have been reset.', 'external-products-currency-for-woocommerce' ) .
+		'</strong></p></div>';
 	}
 
 	/**

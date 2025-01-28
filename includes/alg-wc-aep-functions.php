@@ -47,7 +47,11 @@ if ( ! function_exists( 'alg_wc_aep_is_external_product' ) ) {
 			$product = alg_wc_aep_get_current_product( $product );
 		}
 
-		return ( $product && method_exists( $product, 'is_type' ) && $product->is_type( 'external' ) );
+		return (
+			$product &&
+			method_exists( $product, 'is_type' ) &&
+			$product->is_type( 'external' )
+		);
 
 	}
 }

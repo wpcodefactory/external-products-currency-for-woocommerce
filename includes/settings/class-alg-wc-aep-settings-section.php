@@ -2,7 +2,7 @@
 /**
  * Advanced External Products for WooCommerce - Section Settings
  *
- * @version 2.0.0
+ * @version 2.5.0
  * @since   1.0.0
  *
  * @author  Algoritmika Ltd.
@@ -15,14 +15,37 @@ if ( ! class_exists( 'Alg_WC_AEP_Settings_Section' ) ) :
 class Alg_WC_AEP_Settings_Section {
 
 	/**
+	 * id.
+	 *
+	 * @version 2.5.0
+	 * @since   2.5.0
+	 */
+	public $id;
+
+	/**
+	 * desc.
+	 *
+	 * @version 2.5.0
+	 * @since   2.5.0
+	 */
+	public $desc;
+
+	/**
 	 * Constructor.
 	 *
 	 * @version 2.0.0
 	 * @since   1.0.0
 	 */
 	function __construct() {
-		add_filter( 'woocommerce_get_sections_alg_wc_advanced_external_products',              array( $this, 'settings_section' ) );
-		add_filter( 'woocommerce_get_settings_alg_wc_advanced_external_products_' . $this->id, array( $this, 'get_settings' ), PHP_INT_MAX );
+		add_filter(
+			'woocommerce_get_sections_alg_wc_advanced_external_products',
+			array( $this, 'settings_section' )
+		);
+		add_filter(
+			'woocommerce_get_settings_alg_wc_advanced_external_products_' . $this->id,
+			array( $this, 'get_settings' ),
+			PHP_INT_MAX
+		);
 	}
 
 	/**

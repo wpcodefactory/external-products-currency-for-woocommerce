@@ -2,7 +2,7 @@
 /**
  * Advanced External Products for WooCommerce - Main Class
  *
- * @version 2.5.0
+ * @version 2.5.1
  * @since   1.0.0
  *
  * @author  Algoritmika Ltd.
@@ -117,7 +117,7 @@ final class Alg_WC_AEP {
 	 * @version 2.4.3
 	 * @since   2.4.3
 	 *
-	 * @see     https://github.com/woocommerce/woocommerce/wiki/High-Performance-Order-Storage-Upgrade-Recipe-Book#declaring-extension-incompatibility
+	 * @see     https://developer.woocommerce.com/docs/features/high-performance-order-storage/recipe-book/
 	 */
 	function wc_declare_compatibility() {
 		if ( class_exists( '\Automattic\WooCommerce\Utilities\FeaturesUtil' ) ) {
@@ -150,7 +150,7 @@ final class Alg_WC_AEP {
 	/**
 	 * admin.
 	 *
-	 * @version 2.5.0
+	 * @version 2.5.1
 	 * @since   2.0.0
 	 */
 	function admin() {
@@ -162,10 +162,10 @@ final class Alg_WC_AEP {
 		);
 
 		// "Recommendations" page
-		$this->add_cross_selling_library();
+		add_action( 'init', array( $this, 'add_cross_selling_library' ) );
 
 		// WC Settings tab as WPFactory submenu item
-		$this->move_wc_settings_tab_to_wpfactory_menu();
+		add_action( 'init', array( $this, 'move_wc_settings_tab_to_wpfactory_menu' ) );
 
 		// Settings
 		add_filter(
@@ -226,7 +226,7 @@ final class Alg_WC_AEP {
 	/**
 	 * move_wc_settings_tab_to_wpfactory_menu.
 	 *
-	 * @version 2.5.0
+	 * @version 2.5.1
 	 * @since   2.5.0
 	 */
 	function move_wc_settings_tab_to_wpfactory_menu() {
@@ -244,7 +244,11 @@ final class Alg_WC_AEP {
 		$wpfactory_admin_menu->move_wc_settings_tab_to_wpfactory_menu( array(
 			'wc_settings_tab_id' => 'alg_wc_advanced_external_products',
 			'menu_title'         => __( 'Advanced External Products', 'external-products-currency-for-woocommerce' ),
-			'page_title'         => __( 'Advanced External Products', 'external-products-currency-for-woocommerce' ),
+			'page_title'         => __( 'Multiple External Products URLs & Currencies for WooCommerce', 'external-products-currency-for-woocommerce' ),
+			'plugin_icon'        => array(
+				'get_url_method'    => 'wporg_plugins_api',
+				'wporg_plugin_slug' => 'external-products-currency-for-woocommerce',
+			),
 		) );
 
 	}

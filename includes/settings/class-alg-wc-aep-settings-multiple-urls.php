@@ -36,6 +36,7 @@ class Alg_WC_AEP_Settings_Multiple_URLs extends Alg_WC_AEP_Settings_Section {
 	 */
 	function get_settings() {
 		return array(
+
 			array(
 				'title'    => __( 'Multiple Product URLs', 'external-products-currency-for-woocommerce' ),
 				'desc'     => __( 'Set multiple URLs per product.', 'external-products-currency-for-woocommerce' ),
@@ -54,6 +55,7 @@ class Alg_WC_AEP_Settings_Multiple_URLs extends Alg_WC_AEP_Settings_Section {
 				'type'     => 'sectionend',
 				'id'       => 'alg_wc_external_products_multiple_urls_options',
 			),
+
 			array(
 				'title'             => __( 'Single', 'external-products-currency-for-woocommerce' ),
 				'type'              => 'title',
@@ -92,6 +94,7 @@ class Alg_WC_AEP_Settings_Multiple_URLs extends Alg_WC_AEP_Settings_Section {
 				'type'              => 'sectionend',
 				'id'                => 'alg_wc_external_products_multiple_urls_single_options',
 			),
+
 			array(
 				'title'             => __( 'Archives', 'external-products-currency-for-woocommerce' ),
 				'type'              => 'title',
@@ -130,6 +133,7 @@ class Alg_WC_AEP_Settings_Multiple_URLs extends Alg_WC_AEP_Settings_Section {
 				'type'              => 'sectionend',
 				'id'                => 'alg_wc_external_products_multiple_urls_loop_options',
 			),
+
 		);
 	}
 

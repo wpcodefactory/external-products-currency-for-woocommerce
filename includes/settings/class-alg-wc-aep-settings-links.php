@@ -34,6 +34,7 @@ class Alg_WC_AEP_Settings_Links extends Alg_WC_AEP_Settings_Section {
 	 */
 	function get_settings() {
 		return array(
+
 			array(
 				'title'    => __( 'Links', 'external-products-currency-for-woocommerce' ),
 				'desc'     => __( 'Make external/affiliate products links open in a new tab.', 'external-products-currency-for-woocommerce' ),
@@ -51,6 +52,7 @@ class Alg_WC_AEP_Settings_Links extends Alg_WC_AEP_Settings_Section {
 				'type'     => 'sectionend',
 				'id'       => 'alg_wc_external_products_link_options',
 			),
+
 			array(
 				'title'    => __( 'All Products', 'external-products-currency-for-woocommerce' ),
 				'type'     => 'title',
@@ -76,6 +78,7 @@ class Alg_WC_AEP_Settings_Links extends Alg_WC_AEP_Settings_Section {
 				'type'     => 'sectionend',
 				'id'       => 'alg_wc_external_products_links_all_products_options',
 			),
+
 			array(
 				'title'             => __( 'Per Product', 'external-products-currency-for-woocommerce' ),
 				'type'              => 'title',
@@ -129,6 +132,7 @@ class Alg_WC_AEP_Settings_Links extends Alg_WC_AEP_Settings_Section {
 				'type'              => 'sectionend',
 				'id'                => 'alg_wc_external_products_links_per_product_options',
 			),
+
 		);
 	}
 

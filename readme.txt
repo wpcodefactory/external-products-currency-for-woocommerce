@@ -1,9 +1,9 @@
 === Multiple External Products URLs & Currencies for WooCommerce ===
 Contributors: wpcodefactory, algoritmika, anbinder, karzin, omardabbas
-Tags: woocommerce, external product, external products, woo commerce
+Tags: woocommerce, external product, external products, ecommerce
 Requires at least: 4.4
-Tested up to: 6.7
-Stable tag: 2.5.0
+Tested up to: 6.8
+Stable tag: 2.5.1
 License: GNU General Public License v3.0
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -43,6 +43,16 @@ With the [premium plugin version](https://wpfactory.com/item/advanced-external-p
 3. Start by visiting plugin settings at "WPFactory > Advanced External Products".
 
 == Changelog ==
+
+= 2.5.1 - 04/07/2025 =
+* Dev - WPFactory Admin Menu - Library updated.
+* Dev - WPFactory Admin Menu - Moved to the `init` hook.
+* Dev - WPFactory Admin Menu - Icon added.
+* Dev - WPFactory Recommendations - Moved to the `init` hook.
+* Dev - WPFactory Key Manager - Library updated.
+* Dev - WPFactory Key Manager - Moved to the `init` hook.
+* WC tested up to: 9.9.
+* Tested up to: 6.8.
 
 = 2.5.0 - 28/01/2025 =
 * Fix - Multiple URLs - Archives - Hide an extra "Buy product" button.

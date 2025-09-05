@@ -2,41 +2,40 @@
 # This file is distributed under the GNU General Public License v3.0.
 msgid ""
 msgstr ""
-"Project-Id-Version: Multiple External Products URLs & Currencies for WooCommerce 2.5.1\n"
+"Project-Id-Version: external-products-currency-for-woocommerce 2.5.2\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/external-products-currency-for-woocommerce\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2025-07-04T16:34:50+00:00\n"
+"POT-Creation-Date: 2025-09-05T16:09:54+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"X-Generator: WP-CLI 2.11.0\n"
+"X-Generator: WP-CLI 2.12.0\n"
 "X-Domain: external-products-currency-for-woocommerce\n"
 
 #. Plugin Name of the plugin
-#: external-products-currency-for-woocommerce.php
-#: includes/class-alg-wc-aep.php:247
-msgid "Multiple External Products URLs & Currencies for WooCommerce"
+#: external-products-currency-for-woocommerce-pro.php
+msgid "Multiple External Products URLs & Currencies for WooCommerce Pro"
 msgstr ""
 
 #. Plugin URI of the plugin
-#: external-products-currency-for-woocommerce.php
+#: external-products-currency-for-woocommerce-pro.php
 msgid "https://wpfactory.com/item/advanced-external-products-for-woocommerce/"
 msgstr ""
 
 #. Description of the plugin
-#: external-products-currency-for-woocommerce.php
+#: external-products-currency-for-woocommerce-pro.php
 msgid "Adds more control over external/affiliate products in WooCommerce."
 msgstr ""
 
 #. Author of the plugin
-#: external-products-currency-for-woocommerce.php
+#: external-products-currency-for-woocommerce-pro.php
 msgid "WPFactory"
 msgstr ""
 
 #. Author URI of the plugin
-#: external-products-currency-for-woocommerce.php
+#: external-products-currency-for-woocommerce-pro.php
 msgid "https://wpfactory.com"
 msgstr ""
 
@@ -62,6 +61,7 @@ msgstr ""
 
 #. Translators: %1$s: First format, %2$s: Second format, %3$s: Third format.
 #: includes/class-alg-wc-aep-multiple-urls.php:115
+#, php-format
 msgid "Accepted formats: %1$s, %2$s or %3$s."
 msgstr ""
 
@@ -76,6 +76,10 @@ msgstr ""
 #: includes/class-alg-wc-aep.php:246
 #: includes/settings/class-alg-wc-settings-aep.php:26
 msgid "Advanced External Products"
+msgstr ""
+
+#: includes/class-alg-wc-aep.php:247
+msgid "Multiple External Products URLs & Currencies for WooCommerce"
 msgstr ""
 
 #: includes/pro/class-alg-wc-aep-pro-currency.php:65
@@ -177,6 +181,7 @@ msgstr ""
 
 #. Translators: %s: Placeholder list.
 #: includes/settings/class-alg-wc-aep-settings-currency.php:98
+#, php-format
 msgid "Available placeholders: %s."
 msgstr ""
 

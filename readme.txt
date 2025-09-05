@@ -1,9 +1,9 @@
 === Multiple External Products URLs & Currencies for WooCommerce ===
-Contributors: wpcodefactory, algoritmika, anbinder, karzin, omardabbas
+Contributors: wpcodefactory, anbinder, karzin, omardabbas
 Tags: woocommerce, external product, external products, ecommerce
 Requires at least: 4.4
 Tested up to: 6.8
-Stable tag: 2.5.1
+Stable tag: 2.5.2
 License: GNU General Public License v3.0
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -43,6 +43,9 @@ With the [premium plugin version](https://wpfactory.com/item/advanced-external-p
 3. Start by visiting plugin settings at "WPFactory > Advanced External Products".
 
 == Changelog ==
+
+= 2.5.2 - 05/09/2025 =
+* WC tested up to: 10.1.
 
 = 2.5.1 - 04/07/2025 =
 * Dev - WPFactory Admin Menu - Library updated.

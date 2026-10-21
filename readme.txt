@@ -1,9 +1,10 @@
 === Multiple External Products URLs & Currencies for WooCommerce ===
 Contributors: wpcodefactory, anbinder, karzin, omardabbas
 Tags: woocommerce, external product, external products, ecommerce
-Requires at least: 4.4
-Tested up to: 7.0
-Stable tag: 2.5.3
+Requires at least: 4.7
+Tested up to: 7.1
+Requires PHP: 7.4
+Stable tag: 2.6.0
 License: GNU General Public License v3.0
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -44,9 +45,20 @@ With the [premium plugin version](https://wpfactory.com/item/advanced-external-p
 
 == Changelog ==
 
+= 2.6.0 - 21/10/2026 =
+* Dev - Code refactoring.
+* Dev - Coding standards improved.
+* Dev - WPFactory Admin Menu - Library updated (to v1.1.4).
+* Dev - WPFactory Cross-Selling - Library updated (to v1.1.7).
+* Dev - WPFactory Key Manager - Library updated (to v1.1.1).
+* WC tested up to: 11.2.
+* Tested up to: 7.1.
+* Requires at least: 4.7.
+* Requires PHP: 7.4.
+
 = 2.5.3 - 24/05/2026 =
-* Tested up to: 7.0.
 * WC tested up to: 10.7.
+* Tested up to: 7.0.
 
 = 2.5.2 - 05/09/2025 =
 * WC tested up to: 10.1.

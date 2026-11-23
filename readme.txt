@@ -4,7 +4,7 @@ Tags: woocommerce, external product, external products, ecommerce
 Requires at least: 4.7
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 2.6.0
+Stable tag: 2.6.1
 License: GNU General Public License v3.0
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -44,6 +44,9 @@ With the [premium plugin version](https://wpfactory.com/item/advanced-external-p
 3. Start by visiting plugin settings at "WPFactory > Advanced External Products".
 
 == Changelog ==
+
+= 2.6.1 - 23/11/2026 =
+* WC tested up to: 11.3.
 
 = 2.6.0 - 21/10/2026 =
 * Dev - Code refactoring.

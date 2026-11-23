@@ -3,14 +3,14 @@
  * Plugin Name: Multiple External Products URLs & Currencies for WooCommerce
  * Plugin URI: https://wpfactory.com/item/advanced-external-products-for-woocommerce/
  * Description: Adds more control over external/affiliate products in WooCommerce.
- * Version: 2.6.0
+ * Version: 2.6.1
  * Author: WPFactory
  * Author URI: https://wpfactory.com
  * Requires at least: 4.7
  * Requires PHP: 7.4
  * Text Domain: external-products-currency-for-woocommerce
  * Domain Path: /langs
- * WC tested up to: 11.2
+ * WC tested up to: 11.3
  * Requires Plugins: woocommerce
  * License: GNU General Public License v3.0
  * License URI: http://www.gnu.org/licenses/gpl-3.0.html
@@ -49,7 +49,7 @@ if ( 'external-products-currency-for-woocommerce.php' === basename( __FILE__ ) )
 /**
  * Plugin version.
  */
-defined( 'ALG_WC_AEP_VERSION' ) || define( 'ALG_WC_AEP_VERSION', '2.6.0' );
+defined( 'ALG_WC_AEP_VERSION' ) || define( 'ALG_WC_AEP_VERSION', '2.6.1' );
 
 /**
  * Plugin file.
